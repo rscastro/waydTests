@@ -1,0 +1,34 @@
+{
+  "name": "wayd",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "mocha --compilers js:babel-core/register --recursive"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "chai": "^3.4.1",
+    "express": "^4.13.4",
+    "mocha": "^2.4.4",
+    "moment": "^2.11.1",
+    "path": "^0.12.7",
+    "pg-promise": "^3.0.6",
+    "react-native": "^0.18.1",
+    "react-native-google-places-autocomplete": "^1.1.6",
+    "react-native-simple-store": "^0.1.0",
+    "react-redux": "^4.0.6",
+    "redux": "^3.0.5",
+    "redux-thunk": "^1.0.0",
+    "sql-load": "0.0.2",
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "chai": "^3.4.1",
+    "expect": "^1.13.4",
+    "mocha": "^2.4.4",
+    "supertest": "^1.1.0"
+  }
+}
